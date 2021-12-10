@@ -6,9 +6,10 @@ Let's start with implementing a web server with connection to a MySQL database i
 
 ## Preparation
 
-1. create .env File in project root directory
-2. Start MySQL Database
-3. insert MySQL Credentials into .env
+1. Install go -> [https://go.dev/doc/install](https://go.dev/doc/install/)
+2. create .env File in project root directory
+3. Start MySQL Database
+4. insert MySQL Credentials into .env
 
 ### .env Example
 
@@ -24,8 +25,7 @@ DB_OPTIONS="?charset=utf8mb4&parseTime=True&loc=Local"
 ## Installation
 
 ```
-Install go -> https://go.dev/doc/install
-
+// go into project root directory
 $ go install
 $ go run .
 ```
