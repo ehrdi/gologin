@@ -3,7 +3,6 @@ package dbconnection
 import (
 	"example/login/model"
 	"fmt"
-
 	"os"
 
 	"gorm.io/driver/mysql"

@@ -2,9 +2,7 @@ package controller
 
 import (
 	"example/login/model"
-
 	"example/login/service"
-
 	"strconv"
 
 	"github.com/gin-gonic/gin"
